@@ -291,6 +291,7 @@ void *looper(void *args) {
 //                        LOGE("Touch Screen Down");
                         LOGE("点击的是:%d", int32_t(mx));
                         LOGE("点击的是:%d", int32_t(my));
+
                         break;
                     }
                     case AMOTION_EVENT_ACTION_UP: {
