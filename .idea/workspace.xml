@@ -15,9 +15,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69c1e8fe-8f7e-42b4-84a5-b6e91d80acb7" name="Default Changelist" comment="升级android工具">
-      <change beforePath="$PROJECT_DIR$/app/src/main/cpp/sk_main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/cpp/sk_main.cpp" afterDir="false" />
-    </list>
+    <list default="true" id="69c1e8fe-8f7e-42b4-84a5-b6e91d80acb7" name="Default Changelist" comment="升级android工具" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
