@@ -1,3 +1,15 @@
 # ninja log v5
 1	1047	774555844	CMakeFiles/sk_main.dir/sk_main.cpp.o	40d86fa27c0637ca
 1053	1161	774555844	E:/Desktop/nativeNew/app/build/intermediates/cxx/Debug/6j59ea23/obj/arm64-v8a/libsk_main.so	33870d6792e09fc4
+6	1032	774557546	CMakeFiles/sk_main.dir/sk_main.cpp.o	40d86fa27c0637ca
+1032	1119	774557546	E:/Desktop/nativeNew/app/build/intermediates/cxx/Debug/6j59ea23/obj/arm64-v8a/libsk_main.so	33870d6792e09fc4
+5	996	774557648	CMakeFiles/sk_main.dir/sk_main.cpp.o	40d86fa27c0637ca
+997	1081	774557648	E:/Desktop/nativeNew/app/build/intermediates/cxx/Debug/6j59ea23/obj/arm64-v8a/libsk_main.so	33870d6792e09fc4
+5	742	774557977	CMakeFiles/sk_main.dir/sk_main.cpp.o	40d86fa27c0637ca
+742	836	774557977	E:/Desktop/nativeNew/app/build/intermediates/cxx/Debug/6j59ea23/obj/arm64-v8a/libsk_main.so	33870d6792e09fc4
+4	763	774558039	CMakeFiles/sk_main.dir/sk_main.cpp.o	40d86fa27c0637ca
+763	856	774558039	E:/Desktop/nativeNew/app/build/intermediates/cxx/Debug/6j59ea23/obj/arm64-v8a/libsk_main.so	33870d6792e09fc4
+4	955	774558102	CMakeFiles/sk_main.dir/sk_main.cpp.o	40d86fa27c0637ca
+956	1041	774558102	E:/Desktop/nativeNew/app/build/intermediates/cxx/Debug/6j59ea23/obj/arm64-v8a/libsk_main.so	33870d6792e09fc4
+5	1004	774558521	CMakeFiles/sk_main.dir/sk_main.cpp.o	40d86fa27c0637ca
+1004	1094	774558522	E:/Desktop/nativeNew/app/build/intermediates/cxx/Debug/6j59ea23/obj/arm64-v8a/libsk_main.so	33870d6792e09fc4

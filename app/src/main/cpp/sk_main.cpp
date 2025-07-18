@@ -1,3 +1,4 @@
+#include <jni.h>
 #include <string>
 #include <android/log.h>
 #include <pthread.h>
@@ -16,8 +17,90 @@
 
 static bool isLoop = false;
 static pthread_t loopID;
+
+void showToast(ANativeActivity* activity, const char* message, int duration) {
+    if (activity == nullptr || activity->vm == nullptr) {
+        LOGE("showToast: Invalid activity or VM");
+        return;
+    }
+
+    JNIEnv* env = nullptr;
+    JavaVMAttachArgs args;
+    args.version = JNI_VERSION_1_6;
+    args.name = "NativeThread";
+    args.group = nullptr;
+
+    // 检查当前线程是否已经 attached
+    jint result = activity->vm->GetEnv((void**)&env, JNI_VERSION_1_6);
+    bool shouldDetach = false;
+
+    if (result == JNI_EDETACHED) {
+        // 需要 attach
+        if (activity->vm->AttachCurrentThread(&env, &args) == JNI_OK) {
+            shouldDetach = true;
+        } else {
+            LOGE("Failed to attach thread");
+            return;
+        }
+    } else if (result != JNI_OK) {
+        LOGE("Failed to get JNIEnv");
+        return;
+    }
+
+    // 确保 env 有效
+    if (env == nullptr) {
+        LOGE("JNIEnv is null");
+        return;
+    }
+
+    // 实际 Toast 代码
+    jclass toastClass = env->FindClass("android/widget/Toast");
+    if (toastClass == nullptr) {
+        LOGE("Failed to find Toast class");
+        if (shouldDetach) activity->vm->DetachCurrentThread();
+        return;
+    }
+
+    jmethodID makeText = env->GetStaticMethodID(toastClass, "makeText",
+                                                "(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;");
+    if (makeText == nullptr) {
+        LOGE("Failed to find makeText method");
+        env->DeleteLocalRef(toastClass);
+        if (shouldDetach) activity->vm->DetachCurrentThread();
+        return;
+    }
+
+    jstring jMessage = env->NewStringUTF(message);
+    if (jMessage == nullptr) {
+        LOGE("Failed to create string");
+        env->DeleteLocalRef(toastClass);
+        if (shouldDetach) activity->vm->DetachCurrentThread();
+        return;
+    }
+
+    jobject toast = env->CallStaticObjectMethod(toastClass, makeText,
+                                                activity->clazz, jMessage, duration);
+    if (toast != nullptr) {
+        jmethodID show = env->GetMethodID(toastClass, "show", "()V");
+        if (show != nullptr) {
+            env->CallVoidMethod(toast, show);
+        }
+        env->DeleteLocalRef(toast);
+    }
+
+    // 清理
+    env->DeleteLocalRef(jMessage);
+    env->DeleteLocalRef(toastClass);
+
+    // 只在需要时 detach
+    if (shouldDetach) {
+        activity->vm->DetachCurrentThread();
+    }
+}
+
 void onStart(ANativeActivity *activity) {
     LOGE("Application开始");
+    showToast(activity, "应用程序已启动", 1);
 }
 
 void onResume(ANativeActivity *activity) {
@@ -47,7 +130,7 @@ void onWindowFocusChanged(ANativeActivity *activity, int hasFocus) {
 }
 
 void onNativeWindowCreated(ANativeActivity *activity, ANativeWindow *window) {
-    
+
     EGLint width, height;
     EGLDisplay display = eglGetDisplay(EGL_DEFAULT_DISPLAY);
     eglInitialize(display, nullptr, nullptr);
