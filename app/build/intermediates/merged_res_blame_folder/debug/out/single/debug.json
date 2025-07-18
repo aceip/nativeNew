@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.native_07.app-merged_res-29:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.native_07.app-main-31:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.native_07.app-merged_res-29:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.native_07.app-main-31:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.native_07.app-merged_res-29:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.native_07.app-main-31:/mipmap-hdpi/ic_launcher.webp"
+    }
+]

@@ -1,0 +1,166 @@
+{
+  "abi": "X86",
+  "info": {
+    "abi": "X86",
+    "bitness": 32,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "E:\\Desktop\\native_07_0.001.0002\\app\\.cxx\\Debug\\2x176x3p\\x86",
+  "soFolder": "E:\\Desktop\\native_07_0.001.0002\\app\\build\\intermediates\\cxx\\Debug\\2x176x3p\\obj\\x86",
+  "soRepublishFolder": "E:\\Desktop\\native_07_0.001.0002\\app\\build\\intermediates\\cmake\\debug\\obj\\x86",
+  "abiPlatformVersion": 21,
+  "cmake": {
+    "effectiveConfiguration": {
+      "inheritEnvironments": [],
+      "variables": []
+    }
+  },
+  "variant": {
+    "buildSystemArgumentList": [],
+    "cFlagsList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "E:\\Desktop\\native_07_0.001.0002\\app\\.cxx",
+      "intermediatesBaseFolder": "E:\\Desktop\\native_07_0.001.0002\\app\\build\\intermediates",
+      "intermediatesFolder": "E:\\Desktop\\native_07_0.001.0002\\app\\build\\intermediates\\cxx",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "E:\\Desktop\\native_07_0.001.0002\\app",
+      "moduleBuildFile": "E:\\Desktop\\native_07_0.001.0002\\app\\build.gradle",
+      "makeFile": "E:\\Desktop\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "D:\\Android\\SDK\\ndk\\21.4.7075529",
+      "ndkVersion": "21.4.7075529",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "D:\\Android\\SDK\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "D:\\Android\\SDK\\cmake\\3.18.1\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.18.1"
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "D:\\Android\\SDK\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "D:\\Android\\SDK\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "D:\\Android\\SDK\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "D:\\Android\\SDK\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "E:\\Desktop\\native_07_0.001.0002",
+        "sdkFolder": "D:\\Android\\SDK",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false
+      },
+      "outputOptions": [],
+      "ninjaExe": "D:\\Android\\SDK\\cmake\\3.18.1\\bin\\ninja.exe"
+    },
+    "prefabClassPaths": [],
+    "prefabPackages": [],
+    "prefabPackageConfigurations": [],
+    "stlType": "c++_static",
+    "optimizationTag": "Debug"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "E:\\Desktop\\native_07_0.001.0002\\app\\.cxx\\Debug\\2x176x3p\\prefab\\x86",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "2x176x3p1p643j692c3q4c6i1f5nb1y636jk512z47g1v3h2c3g1v1v2w3a1",
+  "configurationArguments": [
+    "-HE:\\Desktop\\native_07_0.001.0002\\app\\src\\main\\cpp",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_SYSTEM_VERSION\u003d21",
+    "-DANDROID_PLATFORM\u003dandroid-21",
+    "-DANDROID_ABI\u003dx86",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003dx86",
+    "-DANDROID_NDK\u003dD:\\Android\\SDK\\ndk\\21.4.7075529",
+    "-DCMAKE_ANDROID_NDK\u003dD:\\Android\\SDK\\ndk\\21.4.7075529",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dD:\\Android\\SDK\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003dD:\\Android\\SDK\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\Desktop\\native_07_0.001.0002\\app\\build\\intermediates\\cxx\\Debug\\2x176x3p\\obj\\x86",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\Desktop\\native_07_0.001.0002\\app\\build\\intermediates\\cxx\\Debug\\2x176x3p\\obj\\x86",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-BE:\\Desktop\\native_07_0.001.0002\\app\\.cxx\\Debug\\2x176x3p\\x86",
+    "-GNinja"
+  ],
+  "intermediatesParentFolder": "E:\\Desktop\\native_07_0.001.0002\\app\\build\\intermediates\\cxx\\Debug\\2x176x3p"
+}

@@ -1,1 +1,1 @@
-E:\Desktop\nativeNwe\app\src\main\cpp\CMakeLists.txt
+E:\Desktop\nativeNew\app\src\main\cpp\CMakeLists.txt

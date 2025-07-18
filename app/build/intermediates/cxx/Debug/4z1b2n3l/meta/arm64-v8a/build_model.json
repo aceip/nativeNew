@@ -1,0 +1,164 @@
+{
+  "abi": "ARM64_V8A",
+  "info": {
+    "abi": "ARM64_V8A",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\.cxx\\Debug\\4z1b2n3l\\arm64-v8a",
+  "soFolder": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\build\\intermediates\\cxx\\Debug\\4z1b2n3l\\obj\\arm64-v8a",
+  "soRepublishFolder": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+  "abiPlatformVersion": 21,
+  "cmake": {
+    "effectiveConfiguration": {
+      "inheritEnvironments": [],
+      "variables": []
+    }
+  },
+  "variant": {
+    "buildSystemArgumentList": [],
+    "cFlagsList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARM64_V8A"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\.cxx",
+      "intermediatesBaseFolder": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\build\\intermediates",
+      "intermediatesFolder": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\build\\intermediates\\cxx",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "E:\\Desktop\\native\\native_07_0.001.0002\\app",
+      "moduleBuildFile": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\build.gradle",
+      "makeFile": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "E:\\Android\\sdk\\ndk\\21.4.7075529",
+      "ndkVersion": "21.4.7075529",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "E:\\Android\\sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "E:\\Android\\sdk\\cmake\\3.18.1\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.18.1"
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "E:\\Android\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "E:\\Android\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "E:\\Android\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "E:\\Android\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "E:\\Desktop\\native\\native_07_0.001.0002",
+        "sdkFolder": "E:\\Android\\sdk",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "ideBuildTargetAbi": "arm64-v8a,armeabi-v7a,armeabi",
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false
+      },
+      "outputOptions": [],
+      "ninjaExe": "E:\\Android\\sdk\\cmake\\3.18.1\\bin\\ninja.exe"
+    },
+    "prefabClassPaths": [],
+    "prefabPackages": [],
+    "prefabPackageConfigurations": [],
+    "stlType": "c++_static",
+    "optimizationTag": "Debug"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\.cxx\\Debug\\4z1b2n3l\\prefab\\arm64-v8a",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "4z1b2n3l422o645w705s5l3v4a2y475e25724j6cz1p6b6y6s64536u725j332z",
+  "configurationArguments": [
+    "-HE:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_SYSTEM_VERSION\u003d21",
+    "-DANDROID_PLATFORM\u003dandroid-21",
+    "-DANDROID_ABI\u003darm64-v8a",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003darm64-v8a",
+    "-DANDROID_NDK\u003dE:\\Android\\sdk\\ndk\\21.4.7075529",
+    "-DCMAKE_ANDROID_NDK\u003dE:\\Android\\sdk\\ndk\\21.4.7075529",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dE:\\Android\\sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003dE:\\Android\\sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\Desktop\\native\\native_07_0.001.0002\\app\\build\\intermediates\\cxx\\Debug\\4z1b2n3l\\obj\\arm64-v8a",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\Desktop\\native\\native_07_0.001.0002\\app\\build\\intermediates\\cxx\\Debug\\4z1b2n3l\\obj\\arm64-v8a",
+    "-DCMAKE_BUILD_TYPE\u003dDebug",
+    "-BE:\\Desktop\\native\\native_07_0.001.0002\\app\\.cxx\\Debug\\4z1b2n3l\\arm64-v8a",
+    "-GNinja"
+  ],
+  "intermediatesParentFolder": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\build\\intermediates\\cxx\\Debug\\4z1b2n3l"
+}

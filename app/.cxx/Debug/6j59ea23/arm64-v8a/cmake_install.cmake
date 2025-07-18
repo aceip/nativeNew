@@ -1,4 +1,4 @@
-# Install script for directory: E:/Desktop/native_07_0.001.0002/app/src/main/cpp
+# Install script for directory: E:/Desktop/nativeNew/app/src/main/cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/Desktop/native_07_0.001.0002/app/.cxx/Debug/6j59ea23/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "E:/Desktop/nativeNew/app/.cxx/Debug/6j59ea23/arm64-v8a/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

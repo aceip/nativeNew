@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.example.sk_main.app-debug-31:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.sk_main.app-main-33:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.sk_main.app-debug-31:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.sk_main.app-main-33:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.sk_main.app-debug-31:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.sk_main.app-main-33:/drawable/ic_launcher_background.xml"
+    }
+]

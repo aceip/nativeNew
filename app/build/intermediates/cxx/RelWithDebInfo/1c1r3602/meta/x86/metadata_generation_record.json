@@ -1,0 +1,170 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: x86",
+    "file_": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -375684946
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON E:\\Desktop\\native\\native_07_0.001.0002\\app\\.cxx\\RelWithDebInfo\\1c1r3602\\x86\\android_gradle_build.json due to:",
+    "file_": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1189193091
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json E:\\Desktop\\native\\native_07_0.001.0002\\app\\.cxx\\RelWithDebInfo\\1c1r3602\\x86\\android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1205876441
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file E:\\Desktop\\native\\native_07_0.001.0002\\app\\.cxx\\RelWithDebInfo\\1c1r3602\\x86\\metadata_generation_command.txt, will remove stale json folder",
+    "file_": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1026937275
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2085444682
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027E:\\Desktop\\native\\native_07_0.001.0002\\app\\.cxx\\RelWithDebInfo\\1c1r3602\\x86\u0027",
+    "file_": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -133294661
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : E:\\Android\\sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HE:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DANDROID_PLATFORM\u003dandroid-21\n-DANDROID_ABI\u003dx86\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DANDROID_NDK\u003dE:\\Android\\sdk\\ndk\\21.4.7075529\n-DCMAKE_ANDROID_NDK\u003dE:\\Android\\sdk\\ndk\\21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003dE:\\Android\\sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dE:\\Android\\sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\Desktop\\native\\native_07_0.001.0002\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\1c1r3602\\obj\\x86\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\Desktop\\native\\native_07_0.001.0002\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\1c1r3602\\obj\\x86\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-BE:\\Desktop\\native\\native_07_0.001.0002\\app\\.cxx\\RelWithDebInfo\\1c1r3602\\x86\n-GNinja\njvmArgs : \n\n",
+    "file_": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 854615059
+  },
+  {
+    "level_": 0,
+    "message_": "Executable : E:\\Android\\sdk\\cmake\\3.18.1\\bin\\cmake.exe\narguments : \n-HE:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d21\n-DANDROID_PLATFORM\u003dandroid-21\n-DANDROID_ABI\u003dx86\n-DCMAKE_ANDROID_ARCH_ABI\u003dx86\n-DANDROID_NDK\u003dE:\\Android\\sdk\\ndk\\21.4.7075529\n-DCMAKE_ANDROID_NDK\u003dE:\\Android\\sdk\\ndk\\21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003dE:\\Android\\sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003dE:\\Android\\sdk\\cmake\\3.18.1\\bin\\ninja.exe\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\Desktop\\native\\native_07_0.001.0002\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\1c1r3602\\obj\\x86\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\Desktop\\native\\native_07_0.001.0002\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\1c1r3602\\obj\\x86\n-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo\n-BE:\\Desktop\\native\\native_07_0.001.0002\\app\\.cxx\\RelWithDebInfo\\1c1r3602\\x86\n-GNinja\njvmArgs : \n\n",
+    "file_": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 116151186
+  },
+  {
+    "level_": 0,
+    "message_": "Exiting generation of E:\\Desktop\\native\\native_07_0.001.0002\\app\\.cxx\\RelWithDebInfo\\1c1r3602\\x86\\compile_commands.json.bin normally",
+    "file_": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 909659089
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1773098431
+  },
+  {
+    "level_": 0,
+    "message_": "write command file E:\\Desktop\\native\\native_07_0.001.0002\\app\\.cxx\\RelWithDebInfo\\1c1r3602\\x86\\metadata_generation_command.txt",
+    "file_": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1949089039
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "E:\\Desktop\\native\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "release|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -583795781
+  }
+]

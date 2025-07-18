@@ -1,0 +1,93 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 21 min SDK version: x86",
+    "file_": "E:\\Desktop\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON E:\\Desktop\\native_07_0.001.0002\\app\\.cxx\\Debug\\1t6c1u5k\\x86\\android_gradle_build.json due to:",
+    "file_": "E:\\Desktop\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "- no fingerprint file, will remove stale configuration folder",
+    "file_": "E:\\Desktop\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027E:\\Desktop\\native_07_0.001.0002\\app\\.cxx\\Debug\\1t6c1u5k\\x86\u0027",
+    "file_": "E:\\Desktop\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027E:\\Desktop\\native_07_0.001.0002\\app\\.cxx\\Debug\\1t6c1u5k\\x86\u0027",
+    "file_": "E:\\Desktop\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake @echo off\n\"D:\\\\Android\\\\SDK\\\\cmake\\\\3.18.1\\\\bin\\\\cmake.exe\" ^\n  \"-HE:\\\\Desktop\\\\native_07_0.001.0002\\\\app\\\\src\\\\main\\\\cpp\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d21\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-21\" ^\n  \"-DANDROID_ABI\u003dx86\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003dx86\" ^\n  \"-DANDROID_NDK\u003dD:\\\\Android\\\\SDK\\\\ndk\\\\28.0.12674087\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dD:\\\\Android\\\\SDK\\\\ndk\\\\28.0.12674087\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dD:\\\\Android\\\\SDK\\\\ndk\\\\28.0.12674087\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dD:\\\\Android\\\\SDK\\\\cmake\\\\3.18.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\\\Desktop\\\\native_07_0.001.0002\\\\app\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\1t6c1u5k\\\\obj\\\\x86\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\\\Desktop\\\\native_07_0.001.0002\\\\app\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\1t6c1u5k\\\\obj\\\\x86\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dDebug\" ^\n  \"-BE:\\\\Desktop\\\\native_07_0.001.0002\\\\app\\\\.cxx\\\\Debug\\\\1t6c1u5k\\\\x86\" ^\n  -GNinja\n",
+    "file_": "E:\\Desktop\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  },
+  {
+    "level_": 0,
+    "message_": "@echo off\n\"D:\\\\Android\\\\SDK\\\\cmake\\\\3.18.1\\\\bin\\\\cmake.exe\" ^\n  \"-HE:\\\\Desktop\\\\native_07_0.001.0002\\\\app\\\\src\\\\main\\\\cpp\" ^\n  \"-DCMAKE_SYSTEM_NAME\u003dAndroid\" ^\n  \"-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\" ^\n  \"-DCMAKE_SYSTEM_VERSION\u003d21\" ^\n  \"-DANDROID_PLATFORM\u003dandroid-21\" ^\n  \"-DANDROID_ABI\u003dx86\" ^\n  \"-DCMAKE_ANDROID_ARCH_ABI\u003dx86\" ^\n  \"-DANDROID_NDK\u003dD:\\\\Android\\\\SDK\\\\ndk\\\\28.0.12674087\" ^\n  \"-DCMAKE_ANDROID_NDK\u003dD:\\\\Android\\\\SDK\\\\ndk\\\\28.0.12674087\" ^\n  \"-DCMAKE_TOOLCHAIN_FILE\u003dD:\\\\Android\\\\SDK\\\\ndk\\\\28.0.12674087\\\\build\\\\cmake\\\\android.toolchain.cmake\" ^\n  \"-DCMAKE_MAKE_PROGRAM\u003dD:\\\\Android\\\\SDK\\\\cmake\\\\3.18.1\\\\bin\\\\ninja.exe\" ^\n  \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\\\Desktop\\\\native_07_0.001.0002\\\\app\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\1t6c1u5k\\\\obj\\\\x86\" ^\n  \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\\\Desktop\\\\native_07_0.001.0002\\\\app\\\\build\\\\intermediates\\\\cxx\\\\Debug\\\\1t6c1u5k\\\\obj\\\\x86\" ^\n  \"-DCMAKE_BUILD_TYPE\u003dDebug\" ^\n  \"-BE:\\\\Desktop\\\\native_07_0.001.0002\\\\app\\\\.cxx\\\\Debug\\\\1t6c1u5k\\\\x86\" ^\n  -GNinja\n",
+    "file_": "E:\\Desktop\\native_07_0.001.0002\\app\\src\\main\\cpp\\CMakeLists.txt",
+    "tag_": "debug|x86",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 0
+  }
+]

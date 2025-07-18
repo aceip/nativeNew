@@ -1,0 +1,166 @@
+{
+  "abi": "X86_64",
+  "info": {
+    "abi": "X86_64",
+    "bitness": 64,
+    "deprecated": false,
+    "default": true
+  },
+  "cxxBuildFolder": "E:\\Desktop\\native\\native_07_0.001.0001\\app\\.cxx\\RelWithDebInfo\\4x857256\\x86_64",
+  "soFolder": "E:\\Desktop\\native\\native_07_0.001.0001\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\4x857256\\obj\\x86_64",
+  "soRepublishFolder": "E:\\Desktop\\native\\native_07_0.001.0001\\app\\build\\intermediates\\cmake\\release\\obj\\x86_64",
+  "abiPlatformVersion": 21,
+  "cmake": {
+    "effectiveConfiguration": {
+      "inheritEnvironments": [],
+      "variables": []
+    }
+  },
+  "variant": {
+    "buildSystemArgumentList": [],
+    "cFlagsList": [],
+    "cppFlagsList": [
+      ""
+    ],
+    "variantName": "release",
+    "isDebuggableEnabled": false,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": [],
+    "implicitBuildTargetSet": [],
+    "cmakeSettingsConfiguration": "android-gradle-plugin-predetermined-name",
+    "module": {
+      "cxxFolder": "E:\\Desktop\\native\\native_07_0.001.0001\\app\\.cxx",
+      "intermediatesBaseFolder": "E:\\Desktop\\native\\native_07_0.001.0001\\app\\build\\intermediates",
+      "intermediatesFolder": "E:\\Desktop\\native\\native_07_0.001.0001\\app\\build\\intermediates\\cxx",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "E:\\Desktop\\native\\native_07_0.001.0001\\app",
+      "moduleBuildFile": "E:\\Desktop\\native\\native_07_0.001.0001\\app\\build.gradle",
+      "makeFile": "E:\\Desktop\\native\\native_07_0.001.0001\\app\\src\\main\\cpp\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "ndkFolder": "E:\\Android\\sdk\\ndk\\21.4.7075529",
+      "ndkVersion": "21.4.7075529",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultStl": "LIBCXX_STATIC",
+      "ndkMetaPlatforms": {
+        "min": 16,
+        "max": 30,
+        "aliases": {
+          "20": 19,
+          "25": 24,
+          "J": 16,
+          "J-MR1": 17,
+          "J-MR2": 18,
+          "K": 19,
+          "L": 21,
+          "L-MR1": 22,
+          "M": 23,
+          "N": 24,
+          "N-MR1": 24,
+          "O": 26,
+          "O-MR1": 27,
+          "P": 28,
+          "Q": 29,
+          "R": 30
+        }
+      },
+      "ndkMetaAbiList": [
+        {
+          "abi": "ARMEABI_V7A",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "ARM64_V8A",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86",
+          "bitness": 32,
+          "deprecated": false,
+          "default": true
+        },
+        {
+          "abi": "X86_64",
+          "bitness": 64,
+          "deprecated": false,
+          "default": true
+        }
+      ],
+      "cmakeToolchainFile": "E:\\Android\\sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+      "cmake": {
+        "isValidCmakeAvailable": true,
+        "cmakeExe": "E:\\Android\\sdk\\cmake\\3.18.1\\bin\\cmake.exe",
+        "minimumCmakeVersion": "3.18.1"
+      },
+      "stlSharedObjectMap": {
+        "LIBCXX_SHARED": {
+          "ARMEABI_V7A": "E:\\Android\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\arm-linux-androideabi\\libc++_shared.so",
+          "ARM64_V8A": "E:\\Android\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\aarch64-linux-android\\libc++_shared.so",
+          "X86": "E:\\Android\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\i686-linux-android\\libc++_shared.so",
+          "X86_64": "E:\\Android\\sdk\\ndk\\21.4.7075529\\toolchains\\llvm\\prebuilt\\windows-x86_64\\sysroot\\usr\\lib\\x86_64-linux-android\\libc++_shared.so"
+        },
+        "LIBCXX_STATIC": {},
+        "NONE": {},
+        "SYSTEM": {}
+      },
+      "project": {
+        "rootBuildGradleFolder": "E:\\Desktop\\native\\native_07_0.001.0001",
+        "sdkFolder": "E:\\Android\\sdk",
+        "isBuildOnlyTargetAbiEnabled": true,
+        "isCmakeBuildCohabitationEnabled": false,
+        "isPrefabEnabled": false
+      },
+      "outputOptions": [],
+      "ninjaExe": "E:\\Android\\sdk\\cmake\\3.18.1\\bin\\ninja.exe"
+    },
+    "prefabClassPaths": [],
+    "prefabPackages": [],
+    "prefabPackageConfigurations": [],
+    "stlType": "c++_static",
+    "optimizationTag": "RelWithDebInfo"
+  },
+  "buildSettings": {
+    "environmentVariables": []
+  },
+  "prefabFolder": "E:\\Desktop\\native\\native_07_0.001.0001\\app\\.cxx\\RelWithDebInfo\\4x857256\\prefab\\x86_64",
+  "isActiveAbi": true,
+  "fullConfigurationHash": "4x857256w6941a165k6l5eg6h43r3l1k2p113q332m4vy351m3v226r2b",
+  "configurationArguments": [
+    "-HE:\\Desktop\\native\\native_07_0.001.0001\\app\\src\\main\\cpp",
+    "-DCMAKE_SYSTEM_NAME\u003dAndroid",
+    "-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON",
+    "-DCMAKE_SYSTEM_VERSION\u003d21",
+    "-DANDROID_PLATFORM\u003dandroid-21",
+    "-DANDROID_ABI\u003dx86_64",
+    "-DCMAKE_ANDROID_ARCH_ABI\u003dx86_64",
+    "-DANDROID_NDK\u003dE:\\Android\\sdk\\ndk\\21.4.7075529",
+    "-DCMAKE_ANDROID_NDK\u003dE:\\Android\\sdk\\ndk\\21.4.7075529",
+    "-DCMAKE_TOOLCHAIN_FILE\u003dE:\\Android\\sdk\\ndk\\21.4.7075529\\build\\cmake\\android.toolchain.cmake",
+    "-DCMAKE_MAKE_PROGRAM\u003dE:\\Android\\sdk\\cmake\\3.18.1\\bin\\ninja.exe",
+    "-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003dE:\\Desktop\\native\\native_07_0.001.0001\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\4x857256\\obj\\x86_64",
+    "-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003dE:\\Desktop\\native\\native_07_0.001.0001\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\4x857256\\obj\\x86_64",
+    "-DCMAKE_BUILD_TYPE\u003dRelWithDebInfo",
+    "-BE:\\Desktop\\native\\native_07_0.001.0001\\app\\.cxx\\RelWithDebInfo\\4x857256\\x86_64",
+    "-GNinja"
+  ],
+  "intermediatesParentFolder": "E:\\Desktop\\native\\native_07_0.001.0001\\app\\build\\intermediates\\cxx\\RelWithDebInfo\\4x857256"
+}
